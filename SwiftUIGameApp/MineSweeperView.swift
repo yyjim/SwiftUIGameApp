@@ -23,7 +23,8 @@ struct MineSweeperView : View {
                     .background(Color(0xA9A9A9))
                     .cornerRadius(10)
                     .overlay(
-                        Image(systemName: "smiley.fill").foregroundColor(Color.yellow)
+                        Image(systemName: "smiley.fill")
+                            .foregroundColor(Color.yellow)
                     )
             })
             LazyVGrid(columns: Array(repeating: GridItem(.flexible()), count: game.cols)) {
@@ -48,7 +49,7 @@ struct MineSweeperView_Previews: PreviewProvider {
 
 // ===================================================================================
 
-private struct CellView: View {
+struct CellView: View {
 
     let viewModel: MineSweeper.Cell
     let tapAction: () -> Void
@@ -103,7 +104,7 @@ private struct CellView: View {
 //struct CellView_Previews: PreviewProvider {
 //    static var previews: some View {
 //        Group {
-//            CellView(viewModel: MineSweeper.Cell(kind: .bomb, revealed: true),
+//            CellView(viewModel: MineSweeper.Cell(kind: .bomb(exploded: true), revealed: true),
 //                     tapAction: {})
 //            CellView(viewModel: MineSweeper.Cell(kind: .safeZone, revealed: true),
 //                     tapAction: {})

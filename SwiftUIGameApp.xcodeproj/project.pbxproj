@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		FB6207C124AC3FCD00C8E7F5 /* SwiftUIGameApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB6207C024AC3FCD00C8E7F5 /* SwiftUIGameApp.swift */; };
-		FB6207C324AC3FCD00C8E7F5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB6207C224AC3FCD00C8E7F5 /* ContentView.swift */; };
 		FB6207C524AC3FCE00C8E7F5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB6207C424AC3FCE00C8E7F5 /* Assets.xcassets */; };
 		FB6207C824AC3FCE00C8E7F5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB6207C724AC3FCE00C8E7F5 /* Preview Assets.xcassets */; };
 		FB6207D324AC3FCE00C8E7F5 /* SwiftUIGameAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB6207D224AC3FCE00C8E7F5 /* SwiftUIGameAppTests.swift */; };
@@ -38,7 +37,6 @@
 /* Begin PBXFileReference section */
 		FB6207BD24AC3FCD00C8E7F5 /* SwiftUIGameApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIGameApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB6207C024AC3FCD00C8E7F5 /* SwiftUIGameApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIGameApp.swift; sourceTree = "<group>"; };
-		FB6207C224AC3FCD00C8E7F5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		FB6207C424AC3FCE00C8E7F5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FB6207C724AC3FCE00C8E7F5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		FB6207C924AC3FCE00C8E7F5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -102,10 +100,9 @@
 			isa = PBXGroup;
 			children = (
 				FB6207C024AC3FCD00C8E7F5 /* SwiftUIGameApp.swift */,
-				FB6207EF24AC777F00C8E7F5 /* Color+hex.swift */,
-				FB6207C224AC3FCD00C8E7F5 /* ContentView.swift */,
 				FB6207EB24AC453800C8E7F5 /* MineSweeper.swift */,
 				FB6207ED24AC45B800C8E7F5 /* MineSweeperView.swift */,
+				FB6207EF24AC777F00C8E7F5 /* Color+hex.swift */,
 				FB6207C424AC3FCE00C8E7F5 /* Assets.xcassets */,
 				FB6207C924AC3FCE00C8E7F5 /* Info.plist */,
 				FB6207C624AC3FCE00C8E7F5 /* Preview Content */,
@@ -268,7 +265,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FB6207C324AC3FCD00C8E7F5 /* ContentView.swift in Sources */,
 				FB6207F024AC777F00C8E7F5 /* Color+hex.swift in Sources */,
 				FB6207EC24AC453800C8E7F5 /* MineSweeper.swift in Sources */,
 				FB6207C124AC3FCD00C8E7F5 /* SwiftUIGameApp.swift in Sources */,
